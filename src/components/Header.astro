@@ -5,14 +5,14 @@ import { ModeToggle } from './ModeToggle';
 ---
 
 <header>
-	<nav>
+	<nav class="flex flex-row items-center justify-around p-4 mt-2">
 		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
+		<div class="internal-links w-[40%] flex flex-row items-center justify-between">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
-		<div class="social-links">
+		<div class="social-links flex flex-row gap-4">
 			<a href="https://x.com/shezcode" target="_blank">
 				<span class="sr-only">Follow me on Twitter</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
